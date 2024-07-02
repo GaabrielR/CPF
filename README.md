@@ -1,15 +1,16 @@
 # Gerador e Validador de CPF
 
-Este repositório contém implementações em Python de um gerador e validador de CPF, desenvolvidos como parte de um curso extracurricular sobre programação.
+Aplicação web em Python utilizando Flask para gerar e validar CPFs.
 
-### Gerador de CPF
-O script `geradorcpf.py` gera números de CPF válidos de forma aleatória utilizando cálculos de dígitos verificadores.
+## Funcionalidades
 
-### Validador de CPF
-O script `validadorcpf.py` verifica a validade de um CPF digitado pelo usuário. Se o CPF for válido, o script imprimirá `"O CPF digitado é válido."`. Caso contrário, imprimirá `"O CPF digitado é inválido."`.
+- **Gerador de CPF**: Gera números de CPF válidos aleatoriamente.
+- **Validador de CPF**: Verifica a validade de um CPF fornecido pelo usuário.
+- **Interface Web**: Interface amigável para acessar o gerador e validador de CPF.
 
-## Recursos Utilizados
-- Manipulação de strings em Python.
-- Cálculo de dígitos verificadores para CPF.
-- Uso de estruturas de controle como `if` e `for`.
-- Interação básica com o usuário via entrada de dados.
+## Arquivos Principais
+
+- **app.py**: Inicializa a aplicação Flask, configura as rotas e define a lógica de geração e validação de CPF.
+- **geradorcpf.py**: Script para gerar números de CPF válidos.
+- **validadorcpf.py**: Script para validar números de CPF fornecidos pelo usuário.
+- **templates/**: Diretório contendo os templates HTML para a interface web.
